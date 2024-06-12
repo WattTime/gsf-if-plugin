@@ -2,8 +2,8 @@ import * as dotenv from 'dotenv';
 import axios from 'axios';
 import {Settings, DateTime} from 'luxon';
 
-import {ERRORS} from '../../util/errors';
-import {buildErrorMessage} from '../../util/helpers';
+import {ERRORS} from '../util/errors';
+import {buildErrorMessage} from '../util/helpers';
 
 import {
   WattTimeParams,

@@ -1,12 +1,12 @@
 import {Settings, DateTime, Duration} from 'luxon';
 import {z} from 'zod';
 
-import {ERRORS} from '../../util/errors';
-import {buildErrorMessage} from '../../util/helpers';
+import {ERRORS} from '../util/errors';
+import {buildErrorMessage} from '../util/helpers';
 
-import {KeyValuePair, PluginParams} from '../../types/common';
-import {PluginInterface} from '../../interfaces';
-import {validate} from '../../util/validations';
+import {KeyValuePair, PluginParams} from '../types/common';
+import {PluginInterface} from '../types/interface';
+import {validate} from '../util/validations';
 
 import {WattTimeParams, WattTimeRegionParams} from './types';
 import {WattTimeAPI} from './watt-time-api';
