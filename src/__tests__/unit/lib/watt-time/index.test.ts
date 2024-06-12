@@ -2,7 +2,7 @@ import axios from 'axios';
 
 import {WattTimeGridEmissions} from '../../../../lib';
 
-import {ERRORS} from '../../../../util/errors';
+import {ERRORS} from '../../../../lib/util/errors';
 
 import {getMockResponse} from '../../../../__mocks__/watt-time/index';
 
